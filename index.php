@@ -30,8 +30,12 @@ and open the template in the editor.
     <body>
         
         <div id="contenedor">
-            <a id="titulo" class="fa-2x" href="#" data-toggle="" data-placement="" title="Acceda a Ventas Express"><i class=""></i> Ventas Express</a>
+            
+            <div
+            <a id="" class="fa-2x" href="#" title=""><i id="titulo"><img src="img/logo.jpg" border="1" alt="Logo" width="80" height="60">Ventas Express</i> </a>
+            </div>
             <div id="menu"><?php include('menu.php');?></div>
+            
             <div id="contenido"></div>
         </div>
         
