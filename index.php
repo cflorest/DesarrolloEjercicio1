@@ -30,7 +30,7 @@ and open the template in the editor.
     <body>
         
         <div id="contenedor">
-            <div id="titulo"></div>
+            <a id="titulo" class="fa-2x" href="#" data-toggle="" data-placement="" title="Acceda a Ventas Express"><i class=""></i> Ventas Express</a>
             <div id="menu"><?php include('menu.php');?></div>
             <div id="contenido"></div>
         </div>
@@ -38,18 +38,43 @@ and open the template in the editor.
     </body>
     
     <script>
-        $("#prisolicitud").on( "click", function( event ) {
-            if(($("[id*=subsolicitud]").css("display")!="none")){
-                 $("[id*=subsolicitud]").css("display","none");
+        $("#prisolicitud1").on( "click", function( event ) {
+            if(($("[id*=subsolicitud1]").css("display")!="none")){
+                 $("[id*=subsolicitud1]").css("display","none");
             }
             else{
-                $("[id*=subsolicitud]").show();
-                $("[id*=subsolicitud]").css("display","block");
+                $("[id*=subsolicitud1]").show();
+                $("[id*=subsolicitud1]").css("display","block");
             }
-                
-                
+              
             });
         
-        $('[data-toggle="tooltip"]').tooltip(); 
+         $("#prisolicitud2").on( "click", function( event ) {
+            if(($("[id*=subsolicitud2]").css("display")!="none")){
+                 $("[id*=subsolicitud2]").css("display","none");
+            }
+            else{
+                $("[id*=subsolicitud2]").show();
+                $("[id*=subsolicitud2]").css("display","block");
+            }
+              
+            });
+            
+             $("#prisolicitud3").on( "click", function( event ) {
+            if(($("[id*=subsolicitud3]").css("display")!="none")){
+                 $("[id*=subsolicitud3]").css("display","none");
+            }
+            else{
+                $("[id*=subsolicitud3]").show();
+                $("[id*=subsolicitud3]").css("display","block");
+            }
+              
+            });
+        
+        
+        $('[data-toggle="tooltip"]').tooltip();
+        
+        
+        
     </script>
 </html>
